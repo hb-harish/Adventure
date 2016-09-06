@@ -11,8 +11,8 @@ public class Adventure {
 		
 		for (int i =8; i>0; i--)
 		{
-		System.out.println("\n\nYou find your way into a creepy house! You have " + i + " tries to escape before you die from the house getting bombed");
-		System.out.println("Would stairs that lead \"upstairs\" or a door that goes into the \"kitchen\"?");
+		System.out.println("\n\nYou find your way into a creepy house! You have " + i + " tries to escape");
+		System.out.println("You see stairs that lead \"upstairs\" or a door that goes into the \"kitchen\"?");
 		System.out.println("What would you like to do");
 		String option1 = sc.next();
 		if (option1.equals("kitchen"))
